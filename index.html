@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PI Strategies — Brand Growth Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pi.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="logo.png" alt="PI Strategies Logo">
+  </a>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#process">Process</a>
+    <a href="#contact" class="nav-cta">Book a Meeting</a>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+
+  <div class="hero-tag">Creative Marketing Agency</div>
+
+  <h1 class="hero-h1">
+    <span class="outline">Make</span> Them<br>
+    <em>Remember</em><br>
+    Your Brand
+  </h1>
+
+  <p class="hero-sub">
+    We don't just run campaigns. We engineer attention, build brand recall, and turn visibility into customers — for brands that refuse to be ignored.
+  </p>
+
+  <div class="hero-ctas">
+    <a href="#contact" class="btn-primary">Book a Meeting</a>
+    <a href="#work" class="btn-ghost">View Work ↓</a>
+  </div>
+
+  <div class="hero-scroll-hint">Scroll</div>
+
+  <div class="hero-marquee">
+    <div class="marquee-track" id="marquee">
+      <span class="marquee-item">Performance Marketing <span>✦</span></span>
+      <span class="marquee-item">Brand Identity <span>✦</span></span>
+      <span class="marquee-item">Video Production <span>✦</span></span>
+      <span class="marquee-item">Social Growth <span>✦</span></span>
+      <span class="marquee-item">Campaign Strategy <span>✦</span></span>
+      <span class="marquee-item">Attention Engineering <span>✦</span></span>
+      <span class="marquee-item">Performance Marketing <span>✦</span></span>
+      <span class="marquee-item">Brand Identity <span>✦</span></span>
+      <span class="marquee-item">Video Production <span>✦</span></span>
+      <span class="marquee-item">Social Growth <span>✦</span></span>
+      <span class="marquee-item">Campaign Strategy <span>✦</span></span>
+      <span class="marquee-item">Attention Engineering <span>✦</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left reveal">
+    <div class="section-label">Who We Are</div>
+    <h2>Built by <em>Creators,</em> Not Clerks</h2>
+    <div class="about-stats">
+      <div class="stat-item">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Brands Scaled</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3M+</div>
+        <div class="stat-label">Impressions Delivered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5×</div>
+        <div class="stat-label">Average ROAS</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Creative-First</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-right reveal reveal-delay-2">
+    <p>
+      <strong>PI Strategies was founded by people who think in frames, not spreadsheets.</strong> We're creators, strategists, and obsessive thinkers who understand that in 2025, the brands that win aren't the ones that spend the most — they're the ones that are <strong>impossible to forget.</strong>
+    </p>
+    <p>
+      We combine the psychology of attention with data-backed strategy and culture-forward creative. Every campaign we build is designed to stop the scroll, earn the click, and own the recall.
+    </p>
+    <p>
+      We don't just market your brand. <strong>We build the version of it that lives rent-free in your customer's head.</strong>
+    </p>
+    <div class="about-pillars">
+      <span class="pillar">Attention Psychology</span>
+      <span class="pillar">Creative Strategy</span>
+      <span class="pillar">Performance Data</span>
+      <span class="pillar">Culture Fluency</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header reveal">
+    <div>
+      <div class="section-label">What We Do</div>
+      <h2>Our<br>Services</h2>
+    </div>
+    <p>Every service is designed with one outcome in mind: making your brand impossible to ignore and irresistible to buy from.</p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-num">01 /</div>
+      <div class="service-icon">📡</div>
+      <h3>Ads That Convert</h3>
+      <p>Performance marketing across Meta & Google — built on creative-first strategy, precision targeting, and obsessive optimization. We don't burn budget, we generate demand.</p>
+      <div class="service-arrow">Learn More →</div>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-num">02 /</div>
+      <div class="service-icon">✦</div>
+      <h3>Visuals That Stop Scrolling</h3>
+      <p>Brand identity and creative design that earns attention in a world of visual noise. From logos to social creatives — every pixel carries your brand's energy.</p>
+      <div class="service-arrow">Learn More →</div>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-num">03 /</div>
+      <div class="service-icon">🎬</div>
+      <h3>Videos That Build Trust</h3>
+      <p>Ads, reels, testimonials, and brand films that make your audience feel something. Video is the highest-trust medium — we make it work for your brand.</p>
+      <div class="service-arrow">Learn More →</div>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-num">04 /</div>
+      <div class="service-icon">📈</div>
+      <h3>Strategy That Drives Growth</h3>
+      <p>Social media strategy built for real growth — not vanity metrics. Content systems, posting rhythms, and community plays that compound over time.</p>
+      <div class="service-arrow">Learn More →</div>
+    </div>
+    <div class="service-card reveal reveal-delay-4" style="grid-column: span 1;">
+      <div class="service-num">05 /</div>
+      <div class="service-icon">🚀</div>
+      <h3>Campaign Launch Planning</h3>
+      <p>From brief to launch: complete campaign architecture including messaging strategy, channel selection, asset production, and go-to-market sequencing.</p>
+      <div class="service-arrow">Learn More →</div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="work-header reveal">
+    <div class="section-label">Selected Work</div>
+    <h2>Real Brands. <span class="outline">Real</span> Results.</h2>
+  </div>
+
+  <div class="work-grid">
+    <!-- Card 1 -->
+    <div class="work-card reveal">
+      <div class="work-thumb">
+        <div class="thumb-bg w-bg1">Valley Xpress</div>
+        <div class="work-overlay">
+          <div class="work-result">↑ 3.8× ROAS · Lead Gen Campaign</div>
+          <p>End-to-end performance campaign driving qualified leads and brand awareness for a fast-growing logistics brand.</p>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="work-name">Valley Xpress</div>
+        <div class="work-tag">Performance · Branding</div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="work-card reveal reveal-delay-1">
+      <div class="work-thumb">
+        <div class="thumb-bg w-bg2">Flex Fitness</div>
+        <div class="work-overlay">
+          <div class="work-result">↑ 220% Social Growth · 6 Weeks</div>
+          <p>Social media overhaul: brand identity redesign, content system, and paid social rollout.</p>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="work-name">Flex Fitness</div>
+        <div class="work-tag">Social · Design</div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="work-card reveal reveal-delay-2">
+      <div class="work-thumb">
+        <div class="thumb-bg w-bg3">Sa Re Ga Ma</div>
+        <div class="work-overlay">
+          <div class="work-result">1.2M+ Impressions · Viral Push</div>
+          <p>Digital campaign amplification for the iconic reality show Sa Re Ga Ma Pa Lil Champs.</p>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="work-name">Sa Re Ga Ma Pa</div>
+        <div class="work-tag">Campaign · Video</div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="work-card reveal reveal-delay-2">
+      <div class="work-thumb">
+        <div class="thumb-bg w-bg4">Lil Champs</div>
+        <div class="work-overlay">
+          <div class="work-result">Audience Engagement · Youth Market</div>
+          <p>Creative content strategy and digital execution for the Lil Champs season — maximizing viewer acquisition.</p>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="work-name">Lil Champs</div>
+        <div class="work-tag">Strategy · Content</div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="work-card reveal reveal-delay-3">
+      <div class="work-thumb">
+        <div class="thumb-bg w-bg5">Miss Universe</div>
+        <div class="work-overlay">
+          <div class="work-result">Event Production · National Scale</div>
+          <p>Complete event production and digital presence for Miss Universe — from concept to execution.</p>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="work-name">Miss Universe</div>
+        <div class="work-tag">Event · Production</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="process-header reveal">
+    <div class="section-label">How We Work</div>
+    <h2>The Process<br>Behind the Results</h2>
+  </div>
+
+  <div class="process-track">
+    <div class="process-step reveal">
+      <div class="step-dot">01</div>
+      <div class="step-num-small">Phase 01</div>
+      <h3>Research</h3>
+      <p>Deep brand audit, market positioning, competitor analysis, and audience intelligence. We don't guess — we know.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-1">
+      <div class="step-dot">02</div>
+      <div class="step-num-small">Phase 02</div>
+      <h3>Creative Direction</h3>
+      <p>Messaging strategy, visual language, campaign narrative, and creative brief. The blueprint for everything that follows.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-2">
+      <div class="step-dot">03</div>
+      <div class="step-num-small">Phase 03</div>
+      <h3>Production</h3>
+      <p>Ads, visuals, video, copy. Every asset crafted to stop the scroll and earn the click. Quantity meets quality.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-2">
+      <div class="step-dot">04</div>
+      <div class="step-num-small">Phase 04</div>
+      <h3>Launch</h3>
+      <p>Strategic rollout across channels. Precise timing, sequencing, and audience targeting for maximum impact at launch.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-3">
+      <div class="step-dot">05</div>
+      <div class="step-num-small">Phase 05</div>
+      <h3>Optimization</h3>
+      <p>Real-time data monitoring, A/B testing, and creative iteration. We chase the signal, cut the noise, double down on what works.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-4">
+      <div class="step-dot">06</div>
+      <div class="step-num-small">Phase 06</div>
+      <h3>Scale</h3>
+      <p>Once we have the formula, we scale it. More reach, more conversion, more revenue — systematically and sustainably.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="why-header reveal">
+    <div class="section-label">Why PI Strategies</div>
+    <h2>We Don't Just <span class="accent">Market.</span><br>We Build Brands People Can't Forget.</h2>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-item reveal">
+      <div class="why-versus">
+        <span class="versus-old">Just Posting</span>
+        <span class="versus-arrow">→</span>
+        <span class="versus-new">Building Recall</span>
+      </div>
+      <h3>Consistency That Compounds</h3>
+      <p>We don't fill your feed with forgettable content. We build creative systems that make your brand feel inevitable — showing up in the right moments with the right message.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-1">
+      <div class="why-versus">
+        <span class="versus-old">Running Ads</span>
+        <span class="versus-arrow">→</span>
+        <span class="versus-new">Building Demand</span>
+      </div>
+      <h3>Creative-Performance Fusion</h3>
+      <p>Most agencies either run ads or create content. We do both — simultaneously — because the best-performing ad is the one someone actually wants to watch. Creative is the strategy.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-2">
+      <div class="why-versus">
+        <span class="versus-old">Generic Output</span>
+        <span class="versus-arrow">→</span>
+        <span class="versus-new">Brand Architecture</span>
+      </div>
+      <h3>Psychology-Backed Execution</h3>
+      <p>We understand why people click, buy, share, and remember. Every creative decision — from font weight to video pacing — is an intentional application of attention science.</p>
+    </div>
+  </div>
+
+  <div class="why-cta-strip reveal">
+    <p>Ready to be <span>unforgettable?</span></p>
+    <a href="#contact" class="btn-primary">Let's Build Together</a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <h2 class="reveal">
+    Your Brand<br>
+    <span class="outline">Deserves</span><br>
+    <span class="accent">Attention.</span>
+  </h2>
+  <p class="reveal reveal-delay-1">Stop blending in. Start owning the conversation.</p>
+  <a href="#contact" class="btn-primary reveal reveal-delay-2">Schedule a Call →</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-left reveal">
+    <div class="section-label">Get In Touch</div>
+    <h2>Let's Grow Your <span>Brand</span></h2>
+
+    <div class="contact-detail" style="margin-top: 40px;">
+      <div class="contact-detail-icon">✉</div>
+      <div class="contact-detail-text">
+        <a href="mailto:pistrategies0@gmail.com">pistrategies0@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-detail">
+      <div class="contact-detail-icon">📍</div>
+      <div class="contact-detail-text">· Available Globally</div>
+    </div>
+
+    <div class="contact-availability">
+      <div class="avail-dot"></div>
+      <span>Currently Taking New Clients</span>
+    </div>
+  </div>
+
+  <div class="reveal reveal-delay-1">
+    <form onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Alex Johnson" required>
+        </div>
+        <div class="form-group">
+          <label>Brand / Company</label>
+          <input type="text" placeholder="Your Brand Name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Monthly Budget</label>
+        <select>
+          <option value="" disabled selected>Select your budget range</option>
+          <option>₹50K – ₹1L / month</option>
+          <option>₹1L – ₹3L / month</option>
+          <option>₹3L – ₹5L / month</option>
+          <option>₹5L+ / month</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Your Goal</label>
+        <textarea placeholder="Tell us about your brand and what you want to achieve — leads, awareness, social growth, a product launch..."></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">PI<span>.</span>STRATEGIES</div>
+  <div class="footer-copy">© 2025 PI Strategies. All rights reserved.</div>
+  <div class="footer-socials">
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Behance</a>
+  </div>
+</footer>
+
+<script>
+  // ── Cursor ──
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a, button, .service-card, .work-card, .process-step, .why-item').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
+  });
+
+  // ── Nav scroll ──
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // ── Mobile nav ──
+  function toggleNav() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
+  document.querySelectorAll('#navLinks a').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+  });
+
+  // ── Scroll reveal ──
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => observer.observe(el));
+
+  // ── Form submit ──
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('.btn-submit');
+    btn.textContent = 'Message Sent ✓';
+    btn.style.background = 'var(--white)';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.textContent = 'Send Message →';
+      btn.style.background = 'var(--accent)';
+      btn.disabled = false;
+      e.target.reset();
+    }, 4000);
+  }
+
+  // ── Staggered service cards ──
+  document.querySelectorAll('.service-card').forEach((card, i) => {
+    card.style.transitionDelay = (i * 0.08) + 's';
+  });
+</script>
+</body>
+</html>
